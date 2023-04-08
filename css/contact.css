@@ -159,3 +159,15 @@
     cursor: pointer;
     background-color: var(--color-orange-hover);
 }
+
+.hidden {
+    display: none;
+}
+
+.errors {
+    padding: 10px;
+    background-color: #b91c1c;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}

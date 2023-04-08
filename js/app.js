@@ -5,4 +5,56 @@ document.addEventListener('DOMContentLoaded', function() {
 
   const yearElement = document.querySelector('.year');
   yearElement.textContent = new Date().getFullYear();
-})
+});
+
+const sendEmail = () => {
+  event.preventDefault();
+  const errors = document.querySelector('.errors');
+  const name = document.querySelector('#name');
+  const email = document.querySelector('#email');
+  const phone = document.querySelector('#phone');
+  const message = document.querySelector('#message');
+  if(name.value == '' || email.value == '' || phone.value == '' || message.value == ''){
+    errors.classList.remove('hidden');
+    errors.innerHTML = `
+      <p>Todos los campos son obligatorios</p>
+    `;
+
+    setTimeout(() => {
+      errors.innerHTML = '';
+      errors.classList.add('hidden');
+    }, 3000);
+  }else{
+    errors.innerHTML = '';
+    if(!errors.classList.contains('hidden')){
+      errors.classList.add('hidden');
+    }
+    fetch('https://javidev-emails.000webhostapp.com/emailTest.php', {
+      method: 'POST',
+      body: new URLSearchParams({
+        name: name.value,
+        email: email.value,
+        phone: phone.value,
+        message: message.value
+      })
+    }).then(data => data.json()).then(res => {
+      if(res.status == 200){
+        Swal.fire({
+          title: res.msg,
+          icon: 'success'
+        }).then(result => {
+          if(result.isConfirmed) {
+            name.value = '';
+            email.value = '';
+            phone.value = '';
+            message.value = '';
+          }
+        })
+      }
+      return res;
+    })
+    .catch(err => {
+      console.log(err);
+    });
+  }
+}
