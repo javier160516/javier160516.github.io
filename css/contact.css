@@ -1,0 +1,161 @@
+#contact {
+    padding: 15px 0px;
+}
+
+.container_contact {
+    width: 90%;
+    margin: 0 auto;
+    transition: all 300ms linear;
+
+}
+
+.container_contact .container_contact_title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.container_contact .container_contact_title h2 {
+    color: var(--color-white);
+    position: relative;
+}
+
+.container_contact .container_contact_title h2::before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 3px;
+    background-color: var(--color-white);
+    left: -110px;
+    top: 50%;
+    border-radius: 10px;
+}
+
+.container_contact .container_contact_title h2::after {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 3px;
+    background-color: var(--color-white);
+    right: -110px;
+    top: 50%;
+    border-radius: 10px;
+}
+
+.container_contact .container_contact_form {
+    padding: 20px 15px;
+}
+
+.container_contact .container_contact_form form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid var(--color-white-opacity);
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: var(--color-white-opacity);
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 15px 10px;
+    gap: 15px;
+}
+
+.social a{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: var(--color-white);
+    /* transition: all 300ms ease-in-out; */
+}
+
+.social a:hover img{
+    animation: social 400ms normal;
+}
+
+@keyframes social {
+    from {
+        transform: rotate(360deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+.container_contact_form form .container_contact_inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container_contact_form form .container_contact_inputs>div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container_contact_form form .form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.container_contact_form form .form-group label {
+    color: var(--color-white);
+    margin-bottom: 8px;
+}
+
+.container_contact_form form .form-group input, .container_contact_form form .form-group textarea {
+    padding: 8px 5px;
+    border-radius: 5px;
+    background-color: var(--color-white-opacity);
+    border: 1px solid var(--color-white-opacity);
+    color: var(--color-white);
+    appearance: none;
+    transition: border-color 150ms ease-in-out, box-shadow 150ms ease-in-out;
+}
+.container_contact_form form .form-group input:focus, .container_contact_form form .form-group textarea:focus {
+    outline: 0;
+    background-color: var(--color-white-opacity);
+    box-shadow: 0 0 8px var(--color-orange);
+    border: 1px solid var(--color-orange);
+}
+
+.container_contact_form form .form-group input::placeholder, 
+.container_contact_form form .form-group input::-webkit-input-placeholder,
+.container_contact_form form .form-group input::-moz-placeholder,
+.container_contact_form form .form-group input:-ms-input-placeholder,
+.container_contact_form form .form-group input:-moz-placeholder,
+.container_contact_form form .form-group textarea::placeholder,
+.container_contact_form form .form-group textarea::-webkit-input-placeholder,
+.container_contact_form form .form-group textarea::-moz-placeholder,
+.container_contact_form form .form-group textarea:-ms-input-placeholder,
+.container_contact_form form .form-group textarea:-moz-placeholder {
+    color: var(--color-white-opacity);
+}
+
+.container_contact_form form .container_contact_button {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.container_contact_form form .container_contact_button button {
+    padding: 8px 30px;
+    background-color: var(--color-orange);
+    border: none;
+    color: var(--color-white);
+    border-radius: 5px;
+    transition: all 300ms ease-in-out;
+}
+
+.container_contact_form form .container_contact_button button:hover {
+    cursor: pointer;
+    background-color: var(--color-orange-hover);
+}

@@ -1,0 +1,13 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-top: 2px solid var(--color-white-opacity);
+    padding: 30px 30px;
+}
+
+footer p {
+    text-align: center;
+    color: var(--color-white);
+    font-size: 13px;
+}

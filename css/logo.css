@@ -1,0 +1,23 @@
+.logo {
+    flex: 1;
+    color: var(--color-black);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 0px;
+    transition: all 300ms ease;
+}
+.logo a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px;
+    color: var(--color-white);
+}
+
+.logo a img{
+    object-fit: contain;
+}

@@ -1,0 +1,36 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "title": "Localpet",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae et tempora, omnis, debitis dolorum suscipit illo a accusantium distinctio labore voluptatibus ratione illum tempore sunt incidunt quam. Nemo, aliquam earum!",
+            "image": "./img/projects/localpet.png",
+            "link_git": "https://github.com/javier160516/Localpet-web",
+            "link_web": ""
+        },
+        {
+            "id": 2,
+            "title": "WavesBarberShop",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae et tempora, omnis, debitis dolorum suscipit illo a accusantium distinctio labore voluptatibus ratione illum tempore sunt incidunt quam. Nemo, aliquam earum!",
+            "image": "./img/projects/wavesbarbershop.png",
+            "link_git": "https://github.com/javier160516/wavesBarberShop",
+            "link_web": ""
+        },
+        {
+            "id": 3,
+            "title": "Envio Mensajes Whatsapp",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae et tempora, omnis, debitis dolorum suscipit illo a accusantium distinctio labore voluptatibus ratione illum tempore sunt incidunt quam. Nemo, aliquam earum!",
+            "image": "./img/projects/mensajes-whatsapp.png",
+            "link_git": "https://github.com/javier160516/wavesBarberShop",
+            "link_web": ""
+        },
+        {
+            "id": 4,
+            "title": "Control Inventario",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae et tempora, omnis, debitis dolorum suscipit illo a accusantium distinctio labore voluptatibus ratione illum tempore sunt incidunt quam. Nemo, aliquam earum!",
+            "image": "./img/projects/control-inventario.png",
+            "link_git": "https://github.com/javier160516/wavesBarberShop",
+            "link_web": ""
+        }
+    ]
+}

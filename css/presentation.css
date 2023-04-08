@@ -1,0 +1,68 @@
+/* .section_presentation{
+    height: 100vh;
+} */
+
+#particles-js {
+    height: 100vh;
+}
+
+.presentation {
+    position: relative;
+
+}
+
+.presentation .container_presentation {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 20%);
+}
+
+.presentation .container_presentation .presentation_image{
+    width: 200px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+
+
+    box-shadow:
+  1.2px 1.4px 1.5px rgba(0, 0, 0, 0.038),
+  2.5px 3.2px 3.2px rgba(0, 0, 0, 0.056),
+  4.3px 5.3px 5.4px rgba(0, 0, 0, 0.069),
+  6.4px 8.1px 8.2px rgba(0, 0, 0, 0.08),
+  9.3px 11.6px 11.8px rgba(0, 0, 0, 0.09),
+  13.1px 16.5px 16.7px rgba(0, 0, 0, 0.1),
+  18.6px 23.4px 23.6px rgba(0, 0, 0, 0.111),
+  27px 33.9px 34.3px rgba(0, 0, 0, 0.124),
+  41.6px 52.3px 52.9px rgba(0, 0, 0, 0.142),
+  74px 93px 94px rgba(0, 0, 0, 0.18);
+}
+
+.presentation .container_presentation .presentation_image img {
+    width: 100%;
+}
+
+.presentation .container_presentation .presentation_text {
+    color: var(--color-white);
+    text-align: center;
+}
+
+.presentation .container_presentation .presentation_text h1 {
+    font-size: 20px
+}
+
+.presentation .container_presentation .presentation_text p {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.presentation .container_presentation .presentation_social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px auto;
+}

@@ -1,0 +1,66 @@
+@import url("../fonts/Montserrat-Light.ttf");
+@import url("../fonts/Montserrat-Regular.ttf");
+@import url("../fonts/Montserrat-Medium.ttf");
+@import url("../fonts/Montserrat-Bold.ttf");
+@import url("../fonts/BebasNeue-Regular.ttf");
+:root {
+  --color-white: #ffffff;
+  --color-white-opacity: rgba(255,255,255, 0.1);
+  --color-white-opacity-2: rgba(255,255,255, 0.5);
+  --color-slate: #fefcfb;
+  --color-black: #000000;
+  --color-blue-dark: #0a1128;
+  --color-blue: #1282a2;
+  --color-blue-primary: #001f54;
+  --color-blue-secondary: #034078;
+  --color-orange: #f35b04;
+  --color-orange-hover: #cf4c00;
+  --font-primary: "Montserrat", sans-serif;
+  --font-secondary: "Bebas Neue", cursive;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: var(--font-primary);
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(0, 69, 185, 1) 100%
+  );
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+body::-webkit-scrollbar {
+  width: 5px;
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--color-blue-secondary);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--color-orange);
+  border-radius: 20px;
+  border: 2px solid var(--color-orange);
+}

@@ -1,0 +1,94 @@
+{
+    "skills": [
+        {
+            "id": 1,
+            "name": "Html",
+            "src": "./img/skills/html-5.svg",
+            "alt": "html"
+        },
+        {
+            "id": 2,
+            "name": "Css",
+            "src": "./img/skills/css.svg",
+            "alt": "css"
+        },
+        {
+            "id": 3,
+            "name": "Javascript",
+            "src": "./img/skills/javascript.svg",
+            "alt": "javascript"
+        },
+        {
+            "id": 4,
+            "name": "Tailwindcss",
+            "src": "./img/skills/tailwindcss.svg",
+            "alt": "tailwindcss"
+        },
+        {
+            "id": 5,
+            "name": "Bootstrap",
+            "src": "./img/skills/bootstrap.svg",
+            "alt": "bootstrap"
+        },
+        {
+            "id": 6,
+            "name": "Sass",
+            "src": "./img/skills/sass.svg",
+            "alt": "sass"
+        },
+        {
+            "id": 7,
+            "name": "React",
+            "src": "./img/skills/reactjs.svg",
+            "alt": "reactjs"
+        },
+        {
+            "id": 8,
+            "name": "Angular",
+            "src": "./img/skills/angular.svg",
+            "alt": "angularjs"
+        },
+        {
+            "id": 9,
+            "name": "NodeJs",
+            "src": "./img/skills/nodejs.svg",
+            "alt": "nodejs"
+        },
+        {
+            "id": 10,
+            "name": "NestJs",
+            "src": "./img/skills/nestjs.svg",
+            "alt": "nestjs"
+        },
+        {
+            "id": 11,
+            "name": "Php",
+            "src": "./img/skills/php.svg",
+            "alt": "php"
+        },
+        {
+            "id": 12,
+            "name": "MySql",
+            "src": "./img/skills/mysql.svg",
+            "alt": "mysql"
+        },
+        {
+            "id": 13,
+            "name": "Postman",
+            "src": "./img/skills/postman.svg",
+            "alt": "postman"
+        },
+        {
+            "id": 14,
+            "name": "Laravel",
+            "src": "./img/skills/laravel.svg",
+            "alt": "laravel"
+        },
+        {
+            "id": 15,
+            "name": "Typescript",
+            "src": "./img/skills/typescript.svg",
+            "alt": "Typescript"
+        }
+    ]
+}
