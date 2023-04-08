@@ -61,6 +61,12 @@
             "alt": "nestjs"
         },
         {
+            "id": 11,
+            "name": "Php",
+            "src": "./img/skills/php.svg",
+            "alt": "php"
+        },
+        {
             "id": 12,
             "name": "MySql",
             "src": "./img/skills/mysql.svg",

@@ -45,7 +45,7 @@
 }
 
 .container_skills .skill {
-  width: 180px;
+  width: 130px;
   display: flex;
   justify-content: center;
   flex-direction: column;

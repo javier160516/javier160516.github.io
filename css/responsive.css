@@ -69,6 +69,11 @@
     font-size: 22px;
     text-transform: capitalize;
   }
+
+  .container_skills .skill {
+    width: 180px;
+  }
+
   .container_about .container_about_description {
     display: flex;
     padding: 0 15px;
