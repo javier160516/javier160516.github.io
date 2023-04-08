@@ -41,6 +41,7 @@ const sendEmail = () => {
       if(res.status == 200){
         Swal.fire({
           title: res.msg,
+          text: 'Si no te llegó el email revisa tu spam o vuelve a mandar el formulario.',
           icon: 'success'
         }).then(result => {
           if(result.isConfirmed) {
