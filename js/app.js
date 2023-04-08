@@ -54,7 +54,7 @@ const sendEmail = () => {
       return res;
     })
     .catch(err => {
-      console.log(err);
+      Swal.fire('¡Oops!', 'Ha ocurrido un error, porfavor, intente mas tarde', 'error');
     });
   }
 }
